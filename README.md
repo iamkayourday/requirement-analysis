@@ -103,3 +103,42 @@ The following diagram illustrates the main actors and use cases for the booking 
 ![Use Case Diagram](alx-booking-uc.png)
 
 ---
+
+## Acceptance Criteria
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+Acceptance criteria are essential in the requirement analysis phase of software development because they define the specific conditions that must be met for a feature to be considered complete and successful. These criteria provide a clear understanding of the scope of a feature and ensure that all stakeholders—including developers, testers, and product owners—are aligned with the expected outcomes. By establishing acceptance criteria early in the development process, teams can prevent misunderstandings, reduce the risk of scope creep, and ensure that the product meets the desired requirements.
+
+In addition, well-defined acceptance criteria serve as a guide for testing and validation, providing a benchmark for quality assurance teams to verify whether the feature works as intended. Without clear acceptance criteria, the team may face challenges in measuring progress and ensuring that the delivered feature meets business and user needs.
+
+### Example of Acceptance Criteria for the Checkout Feature in the Booking Management System
+
+For the **Checkout** feature in the booking management system, the following acceptance criteria can be defined:
+
+1. **User Authentication**: 
+   - The user must be logged in to proceed with the checkout.
+   - If the user is not logged in, they should be prompted to log in before continuing.
+
+2. **Booking Confirmation**:
+   - The user must confirm the details of the booking (e.g., check-in/check-out dates, property details, guest count) before proceeding to payment.
+
+3. **Payment Processing**:
+   - The system should provide a secure payment gateway for the user to enter payment details (e.g., credit card information).
+   - Payment should be processed successfully if valid payment details are provided.
+   - If the payment fails (e.g., due to insufficient funds or invalid card), the system should show an error message and allow the user to retry.
+
+4. **Booking Confirmation and Receipt**:
+   - Once the payment is successful, the user should receive a confirmation page with their booking details.
+   - The user should be able to download or receive a booking receipt via email.
+
+5. **Error Handling**:
+   - If there is an issue during the checkout process (e.g., payment gateway failure, booking system error), the system should display a clear and informative error message to the user.
+   - The system should allow the user to retry the operation or contact support.
+
+6. **Cancellation Option**:
+   - After completing the checkout, the user should have the option to cancel the booking within a specified time frame (e.g., 24 hours) without penalty.
+   - If the user cancels the booking within the allowed period, the payment should be refunded.
+
+These criteria ensure that the checkout feature meets the user's expectations and works seamlessly within the overall system.
+
