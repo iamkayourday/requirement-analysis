@@ -85,3 +85,21 @@ Non-functional Requirements define the system's operational qualities and constr
 - The platform must be available 99.9% of the time (uptime).
 - The user interface should be mobile-friendly and accessible to screen readers.
 - All user data must be encrypted during storage and transmission to ensure privacy.
+
+---
+
+## Use Case Diagrams
+
+Use Case Diagrams are visual representations of the interactions between users (actors) and the system. They help identify and clarify the system's functionality from the user’s perspective and are essential for understanding the scope of the system.
+
+### Benefits of Use Case Diagrams:
+- **Clarification**: Helps stakeholders and the development team understand the system’s functional requirements.
+- **Communication**: Provides a clear and simple way to communicate system behavior to non-technical stakeholders.
+- **Scope Definition**: Defines the boundaries of the system and its interactions with external entities.
+
+### Use Case Diagram for Booking Management System:
+The following diagram illustrates the main actors and use cases for the booking management system.
+
+![Use Case Diagram](alx-booking-uc.png)
+
+---
