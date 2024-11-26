@@ -28,3 +28,34 @@ Requirement Analysis is a critical phase in the software development lifecycle (
 4. **Reduces Development Costs**: Early identification of requirements reduces the chances of costly changes during later stages of development.
 
 5. **Supports Better Collaboration**: Provides a clear reference document that helps all teams, from development to QA, work cohesively toward shared goals.
+
+---
+
+## Key Activities in Requirement Analysis
+
+1. **Requirement Gathering**  
+   - Conduct interviews with stakeholders to understand their needs and expectations.  
+   - Use surveys or questionnaires to collect input from a broader audience.  
+   - Organize workshops to gather detailed requirements collaboratively.  
+   - Observe end-users in their working environment for insights into real-world needs.  
+   - Review existing documentation to understand current functionalities and gaps.  
+
+2. **Requirement Elicitation**  
+   - Brainstorm ideas with stakeholders to refine requirements.  
+   - Conduct focus group discussions to gather in-depth details.  
+   - Use prototyping to help stakeholders visualize the system and finalize their needs.  
+
+3. **Requirement Documentation**  
+   - Create detailed requirement specification documents to define all functionalities clearly.  
+   - Write user stories to describe requirements from the user's perspective.  
+   - Develop use case diagrams to represent interactions between users and the system.  
+
+4. **Requirement Analysis and Modeling**  
+   - Prioritize requirements based on their importance and project goals.  
+   - Conduct feasibility studies to ensure requirements are technically and financially viable.  
+   - Use visual models like data flow diagrams or entity-relationship diagrams for better understanding.  
+
+5. **Requirement Validation**  
+   - Review requirements with stakeholders to ensure they are accurate and complete.  
+   - Define acceptance criteria to measure when a requirement is successfully met.  
+   - Create traceability matrices to track requirements throughout the development lifecycle.  
